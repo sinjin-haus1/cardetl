@@ -12,6 +12,7 @@ import { VideosModule } from './videos/videos.module';
 import { SocialModule } from './social/social.module';
 import { TemplatesModule } from './templates/templates.module';
 import { VideoGeneratorModule } from './video-generator/video-generator.module';
+import { SocialPlatformsModule } from './social-platforms/social-platforms.module';
 
 @Module({
   imports: [
@@ -40,6 +41,7 @@ import { VideoGeneratorModule } from './video-generator/video-generator.module';
     SocialModule,
     TemplatesModule,
     VideoGeneratorModule,
+    SocialPlatformsModule,
   ],
 })
 export class AppModule {}
